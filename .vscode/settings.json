@@ -1,0 +1,14 @@
+{
+    "workbench.colorCustomizations": {
+        "editorUnnecessaryCode": {
+            "border": "#dd7aab"
+        },
+        "postcssSorting.config": {
+            "properties-order": "alphabetical",
+        },
+        "activityBar.background": "#1C2F42",
+        "titleBar.activeBackground": "#27415D",
+        "titleBar.activeForeground": "#F8FAFC"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
