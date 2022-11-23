@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+/>
+    <link rel="stylesheet" href="style.css" />
+    <title>FEM grid</title>
+  </head>
+  <body>
+    <header>
+        <div class="header-flex">
+            <span id="sidebar-button"></span>
+            <h1 id="title" calss="text-align-center">Board</h1>
+        </div>
+    </header>
+    <div class="container" id="main-container">
+        <div id="cards-container">
+            <div id="e2" class="parent-card">
+                <span>
+                    <h2 id="e2-h2" class="text-fix card-title">Todo</h2>
+                    <i aria-hidden="true" class="fa fa-bars"></i>
+                </span>
+                <ul id="e2-ul"></ul>
+                <input id="e2-input" maxlength="256" type="text" name="add-todo-text" placeholder="Add Task...">
+                <button id="e2-button" class="plus-button">+</button>
+            </div>
+            <div id="e4" class="parent-card">
+                <span>
+                    <h2 id="e4-h2" class="text-fix card-title">Done</h2>
+                    <i aria-hidden="true" class="fa fa-bars"></i>
+                </span>
+                <ul id="e4-ul">
+                    <li id="e5" style="text-decoration: none;">
+                        <p class="item-title text-fix unselectable">Create CSS APP<br>1.Test<br>2.More<br>3.get</p>
+                        <span>
+                            <i aria-hidden="true" class="fa fa-pencil"></i>
+                            <i aria-hidden="true" class="fa fa-trash"></i>
+                        </span>
+                    </li>
+                </ul>
+                <input id="e4-input" maxlength="256" type="text" name="add-todo-text" placeholder="Add Task...">
+                <button id="e4-button" class="plus-button">+</button>
+            </div>
+            <div id="add-card">
+                <input maxlength="128" type="text" id="add-card-text" name="add-card" placeholder="Add Card..." autofocus="">
+                <button id="add-card-button" class="plus-button">+</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
